@@ -1,0 +1,43 @@
+.Dd June 1, 2018
+.Dt KEYS 7
+.Os
+.Sh NAME
+.Nm keys
+.Nd major and minor keys
+.Sh DESCRIPTION
+.Nm Major
+keys:
+.Bd -literal -offset left
+Major	Minor	Minor	Major	Major	Minor	N/A
+C	D	E	F	G	A	B
+Db	Eb	F	Gb	Ab	Bb	C
+D	E	F#	G	A	B	C#
+Eb	F	G	Ab	Bb	C	D
+E	F#	G#	A	B	C#	D#
+F	G	A	Bb	C	D	E
+F#	G#	A#	B	C#	D#	E# (F)
+G	A	B	C	D	E	F#
+Ab	Bb	C	Db	Eb	F	G
+A	B	C#	D	E	F#	G#
+Bb	C	D	Eb	F	G	A
+B	C#	D#	E	F#	G#	A#
+.Ed
+.Pp
+.Nm Minor
+keys:
+.Bd -literal -offset left
+
+Minor	N/A	Major	Minor	Minor	Major	Major
+C	D	Eb	F	G	Ab	Bb
+C#	D#	E	F#	G#	A	B
+D	E	F	G	A	Bb	C
+D#	E# (F)	F#	G#	A#	B	C#
+E	F#	G	A	B	C	D
+F	G	Ab	Bb	C	Db	Eb
+F#	G#	A	B	C#	D	E
+G	A	Bb	C	D	Eb	F
+G#	A#	B	C#	D#	E	F#
+A	B	C	D	E	F	G
+Bb	C	Db	Eb	F	Gb	Ab
+B	C#	D	E	F#	G	A
+.Ed
